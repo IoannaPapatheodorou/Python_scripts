@@ -124,7 +124,7 @@ def stop_finder(ORF_seq):
 
 #code starts here
 def main():
-    sequence = input("\nThis is an ORF-detecting program.\nThe program will work best for small sequences.\nWhat is your sequence?\n")
+    sequence = input("\nThis is an ORF-detecting program for DNA sequences.\nPlease type your sequence below.\n")
     if "T" in sequence:
         print("Your sequence is in fact a DNA sequence. Proceeding with ORF finding.\n")
         ORF_finder(sequence)
