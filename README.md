@@ -4,6 +4,7 @@ ORF-detector in Python
 
 
 This repository contains simple scripts in Python language. The scripts aim to perform certain molecular biology-related processes in biological data. This particular script aims to detect open reading frames (ORFs) in a DNA sequence. 
+Along with a script the repository contains a txt file with three sequences with three different lengths, that can be used as examples for the program. 
 
 
 The steps of the script are the following:
